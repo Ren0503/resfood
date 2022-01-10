@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './user/controller/app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
+import { CategoryModule } from './category/category.module';
 import { RestaurantModule } from './restaurant/restaurant.module';
 import { OrderModule } from './order/order.module';
 import { PaymentModule } from './payment/payment.module';
@@ -13,7 +14,7 @@ import { AuthModule } from './auth/auth.module';
 import { UserModule } from './user/user.module';
 
 @Module({
-  imports: [UserModule, AuthModule, CoreModule, JwtModule, RestaurantsModule, PaymentModule, OrderModule, RestaurantModule],
+  imports: [UserModule, AuthModule, CoreModule, JwtModule, RestaurantsModule, PaymentModule, OrderModule, RestaurantModule, CategoryModule],
   controllers: [AppController],
   providers: [AppService],
 })
