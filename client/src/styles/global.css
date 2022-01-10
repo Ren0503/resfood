@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+.input{
+  @apply focus:outline-none focus:border-gray-500 p-3 border-gray-300 border text-lg font-light transition-colors;
+}
+
+
+@tailwind utilities;
