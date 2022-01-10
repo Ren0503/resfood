@@ -27,7 +27,7 @@
     "@nestjs/jwt": "^8.0.0",
     "@nestjs/passport": "^8.0.1",
     "@nestjs/platform-express": "^8.0.0",
-    "@nestjs/typeorm": "github:nestjs/typeorm",
+    "@nestjs/typeorm": "^8.0.2",
     "apollo-server-express": "^3.6.1",
     "bcrypt": "^5.0.1",
     "class-validator": "^0.13.2",

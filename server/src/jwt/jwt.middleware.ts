@@ -19,7 +19,7 @@ export class JwtMiddleware implements NestMiddleware {
 
       if (typeof payload === 'object' && payload.hasOwnProperty('id')) {
         try {
-          const foundUser = await this.userService.seeUserProfile(
+          const foundUser = await this.userService.userProfile(
             payload['id'],
           );
           if (foundUser) {
