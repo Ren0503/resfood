@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
+    "@nestjs/config": "^1.1.6",
     "@nestjs/core": "^8.0.0",
     "@nestjs/graphql": "^9.1.2",
     "@nestjs/jwt": "^8.0.0",
@@ -36,6 +37,7 @@
     "dotenv": "^10.0.0",
     "graphql": "^15.8.0",
     "graphql-subscriptions": "^2.0.0",
+    "joi": "^17.5.0",
     "jsonwebtoken": "^8.5.1",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
